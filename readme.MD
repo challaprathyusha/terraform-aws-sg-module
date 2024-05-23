@@ -15,7 +15,7 @@ This module is developed for joindevops.com. In this module you can find resourc
 * sg_tags(optional):Type is map. Default value is empty.
 * vpc_id(required):Type is string. User should provide the value as per their requirement.
 * outbound_rules(optional):Type is list. Default value is provided as all ports,all protocols with   cidr_blocks  as "0.0.0.0/0"
-* inbound_rules(required):Type is list.  User should provide the value as per their requirement.
+* inbound_rules(required):Type is list. User should provide the value as per their requirement.
 
 ## Outputs
 * sg_id:security group id is created
